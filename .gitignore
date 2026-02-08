@@ -1,0 +1,5 @@
+node_modules/
+.env
+data/chat_memory/*.txt
+data/logs/*.log
+*.log

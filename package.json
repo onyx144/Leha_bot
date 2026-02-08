@@ -1,0 +1,23 @@
+{
+  "name": "leha_bot",
+  "version": "1.0.0",
+  "description": "Telegram-бот «Лёша» — персонаж с памятью и ChatGPT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onyx144/Leha_bot.git"
+  },
+  "keywords": ["telegram", "bot", "openai", "lesha"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mysql2": "^3.6.5",
+    "node-telegram-bot-api": "^0.66.0",
+    "openai": "^4.20.1"
+  }
+}
